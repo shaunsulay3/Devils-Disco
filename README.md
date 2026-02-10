@@ -6,3 +6,19 @@ A 1v1 tile-based rhythm game, implementing gameplay and graphics using Java and 
 ![Screenshot](screenshots/devils-disco-screenshot-2.png)
 ![Screenshot](screenshots/devils-disco-screenshot-3.png)
 ![Screenshot](screenshots/devils-disco-screenshot-4.png)
+
+# How to Start
+
+1. Compile the java files with:
+
+javac *.java
+
+2. Start the server with:
+
+java GameServer
+
+3. On two seperate terminals, run:
+
+java GameStarter
+
+The game will start when two players have connected to the server via this command.
